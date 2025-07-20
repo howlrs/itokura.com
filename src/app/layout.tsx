@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "糸蔵";
-const SITE_DESCRIPTION = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || "山形県南陽市 熊野大社の麓宮内 老舗旅館のオフィシャルウェブサイト";
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "味登古品 糸蔵";
+const SITE_DESCRIPTION = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || "山形県南陽市宮内 いとや旅館併設の居酒屋";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
@@ -40,14 +40,15 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <nav>
           <ul className={styles.navList}>
-            <li><Link href="/about">旅館について</Link></li>
-            <li><Link href="/content">施設・サービス</Link></li>
-            <li><Link href="/plan">客室</Link></li>
-            <li><Link href="https://itokura.com/">お食事(糸蔵サービス情報へ)</Link></li>
+            <li><Link href="/">ホーム</Link></li>
+            <li><Link href="/about">糸蔵について</Link></li>
+            <li><Link href="/content">メニュー</Link></li>
+            <li><Link href="/plan">コース・プラン</Link></li>
             <li><Link href="/access">アクセス</Link></li>
             <li><Link href="/sns">ギャラリー</Link></li>
             <li><Link href="/reservation">ご予約</Link></li>
             <li><Link href="/contact">お問い合わせ</Link></li>
+            <li><Link href={process.env.NEXT_PUBLIC_ITOYA_RYOKAN_URL || "https://itoya-ryokan.com/"}>{process.env.NEXT_PUBLIC_ITOYA_RYOKAN_NAME || "いとや旅館"}</Link></li>
           </ul>
         </nav>
         {children}
@@ -58,7 +59,7 @@ export default function RootLayout({
           borderTop: '1px solid #eaeaea',
           backgroundColor: '#f9f9f9'
         }}>
-          <p>&copy; 2024 {process.env.NEXT_PUBLIC_SITE_NAME || "糸蔵/糸蔵"}. All rights reserved.</p>
+          <p>&copy; 2024 {process.env.NEXT_PUBLIC_SITE_NAME || "味登古品 糸蔵"}. All rights reserved.</p>
           <p>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内"} | TEL: {process.env.NEXT_PUBLIC_PHONE || "0238-47-2133"}</p>
         </footer>
       </body>
