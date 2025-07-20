@@ -166,3 +166,306 @@ a.secondary {
     filter: invert();
   }
 }
+
+/* 糸蔵用カスタムスタイル */
+.description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hours {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.hours h2 {
+  margin-bottom: 1rem;
+}
+
+.notice {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.highlights {
+  margin: 2rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid var(--gray-alpha-200);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+/* メニューページ用 */
+.menuSection {
+  margin: 2rem 0;
+}
+
+.menuCategory {
+  margin: 1.5rem 0;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px dotted #ddd;
+}
+
+.itemName {
+  font-weight: 500;
+}
+
+.itemPrice {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* aboutページ用 */
+.aboutSection {
+  margin: 2rem 0;
+}
+
+.infoGrid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.infoItem {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--gray-alpha-200);
+}
+
+.infoItem dt {
+  font-weight: bold;
+}
+
+.infoItem dd {
+  margin: 0;
+}
+
+.relatedStore {
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+/* planページ用 */
+.planSection {
+  margin: 2rem 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #d32f2f;
+  margin: 0.5rem 0;
+}
+
+.hotelGuest {
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.featureList {
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.contactInfo {
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* reservationページ用 */
+.reservationSection {
+  margin: 2rem 0;
+}
+
+.phoneReservation {
+  text-align: center;
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.mainContact {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.requestList {
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.hotelInfo {
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.hotelLink {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: #1976d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.hotelLink:hover {
+  background: #1565c0;
+}
+
+.cancellation {
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+/* contactページ用 */
+.contactSection {
+  margin: 2rem 0;
+}
+
+.storeInfo {
+  margin: 1rem 0;
+}
+
+.contactMethods {
+  margin: 1rem 0;
+}
+
+.contactMethod {
+  text-align: center;
+  padding: 1rem;
+  background: var(--gray-alpha-100);
+  border-radius: 8px;
+}
+
+.phone {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.faq {
+  margin: 1rem 0;
+}
+
+.faqItem {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--gray-alpha-200);
+  border-radius: 8px;
+}
+
+.faqItem h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1976d2;
+}
+
+.faqItem p {
+  margin: 0;
+}
+
+/* ナビゲーション用 */
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navList li {
+  margin: 0;
+}
+
+.navList a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.navList a:hover {
+  background: var(--gray-alpha-200);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .menuGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .infoItem {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .navList {
+    flex-direction: column;
+    align-items: center;
+  }
+}
