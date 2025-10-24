@@ -45,7 +45,7 @@ NEXT_PUBLIC_SITE_DESCRIPTION=山形県南陽市 熊野大社の麓宮内 老舗�
 NEXT_PUBLIC_SITE_URL=https://itoya-ryokan.com
 NEXT_PUBLIC_PHONE=0238-47-2133
 NEXT_PUBLIC_EMAIL=info@itoya-ryokan.com
-NEXT_PUBLIC_ADDRESS=山形県南陽市宮内
+NEXT_PUBLIC_ADDRESS=山形県南陽市宮内1024
 ```
 
 ## セットアップ
@@ -93,4 +93,4 @@ npm run build
 
 ## ライセンス
 
-© 2025 いとや旅館併設糸蔵/糸蔵. All rights reserved.
+© 2025- いとや旅館併設糸蔵/糸蔵. All rights reserved.

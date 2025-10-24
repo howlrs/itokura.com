@@ -23,7 +23,7 @@ export default function About() {
                         </div>
                         <div className={styles.infoItem}>
                             <dt>所在地</dt>
-                            <dd>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内"}</dd>
+                            <dd>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内1024"}</dd>
                         </div>
                         <div className={styles.infoItem}>
                             <dt>業態</dt>
@@ -68,8 +68,8 @@ export default function About() {
                         <h3>いとや旅館</h3>
                         <p>正式名称：熊野大社の麓 地酒と肴で「緑」を繋ぐ宿 いとや旅館</p>
                         <p>糸蔵は、いとや旅館に併設された居酒屋として、宿泊のお客様にもお食事をご提供しております。</p>
-                        <a href={process.env.NEXT_PUBLIC_ITOYA_RYOKAN_URL || "https://itoya-ryokan.com/"} target="_blank" rel="noopener noreferrer" className={styles.link}>
-                            {process.env.NEXT_PUBLIC_ITOYA_RYOKAN_NAME || "いとや旅館"}ウェブサイト
+                        <a href="https://www.jalan.net/yad380300/" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                            いとや旅館のご予約（じゃらん）
                         </a>
                     </div>
                 </section>

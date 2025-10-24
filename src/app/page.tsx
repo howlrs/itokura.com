@@ -37,7 +37,7 @@ export default function Home() {
         <section className={styles.contact}>
           <h2>お問い合わせ・ご予約</h2>
           <p>TEL: {process.env.NEXT_PUBLIC_PHONE || "0238-47-2133"}</p>
-          <p>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内"}</p>
+          <p>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内1024"}</p>
         </section>
       </main>
     </div>

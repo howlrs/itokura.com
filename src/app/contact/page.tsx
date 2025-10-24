@@ -13,7 +13,7 @@ export default function Contact() {
                         <div className={styles.infoGrid}>
                             <div className={styles.infoItem}>
                                 <dt>所在地</dt>
-                                <dd>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内"}</dd>
+                                <dd>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内1024"}</dd>
                             </div>
                             <div className={styles.infoItem}>
                                 <dt>お電話</dt>
@@ -73,10 +73,10 @@ export default function Contact() {
                     <h2>いとや旅館について</h2>
                     <p>
                         糸蔵は、いとや旅館に併設された居酒屋です。
-                        ご宿泊についてのお問い合わせは、いとや旅館ウェブサイトをご覧ください。
+                        ご宿泊については、じゃらんからご予約いただけます。
                     </p>
-                    <a href={process.env.NEXT_PUBLIC_ITOYA_RYOKAN_URL || "https://itoya-ryokan.com/"} target="_blank" rel="noopener noreferrer" className={styles.hotelLink}>
-                        {process.env.NEXT_PUBLIC_ITOYA_RYOKAN_NAME || "いとや旅館"}ウェブサイト
+                    <a href="https://www.jalan.net/yad380300/" target="_blank" rel="noopener noreferrer" className={styles.hotelLink}>
+                        いとや旅館のご予約（じゃらん）
                     </a>
                 </section>
             </main>

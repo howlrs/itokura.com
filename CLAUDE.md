@@ -4,7 +4,7 @@
 
 **正式名称：** 味登古品 糸蔵
 
-**所在地：** 山形県南陽市宮内（いとや旅館併設）
+**所在地：** 山形県南陽市宮内1024（いとや旅館併設）
 
 **業態：** 居酒屋・お食事処
 
@@ -92,11 +92,11 @@
 ```bash
 # 糸蔵 基本情報
 NEXT_PUBLIC_SITE_NAME=味登古品 糸蔵
-NEXT_PUBLIC_SITE_DESCRIPTION=山形県南陽市宮内 いとや旅館併設の居酒屋
+NEXT_PUBLIC_SITE_DESCRIPTION=山形県南陽市宮内1024 いとや旅館併設の居酒屋
 NEXT_PUBLIC_SITE_URL=https://itokura.com
 NEXT_PUBLIC_PHONE=0238-47-2133
 NEXT_PUBLIC_EMAIL=info@itoya-ryokan.com
-NEXT_PUBLIC_ADDRESS=山形県南陽市宮内
+NEXT_PUBLIC_ADDRESS=山形県南陽市宮内1024
 NEXT_PUBLIC_HOURS=18:30～23:00
 NEXT_PUBLIC_CLOSED=月曜日・日曜日
 

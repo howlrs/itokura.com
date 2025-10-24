@@ -17,7 +17,7 @@ export default function Access() {
                     <p>赤湯駅前より南陽市営バス「宮内線」にて「熊野大社前」下車徒歩3分</p>
 
                     <h2>住所</h2>
-                    <p>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内"}</p>
+                    <p>{process.env.NEXT_PUBLIC_ADDRESS || "山形県南陽市宮内1024"}</p>
 
                     <h2>お問い合わせ</h2>
                     <p>TEL: {process.env.NEXT_PUBLIC_PHONE || "0238-47-2133"}</p>

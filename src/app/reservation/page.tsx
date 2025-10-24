@@ -38,8 +38,8 @@ export default function Reservation() {
                         <p>
                             お食事と宿泊をご希望の方は、併設のいとや旅館もご利用いただけます。
                         </p>
-                        <a href={process.env.NEXT_PUBLIC_ITOYA_RYOKAN_URL || "https://itoya-ryokan.com/"} target="_blank" rel="noopener noreferrer" className={styles.hotelLink}>
-                            {process.env.NEXT_PUBLIC_ITOYA_RYOKAN_NAME || "いとや旅館"}ウェブサイトで予約
+                        <a href="https://www.jalan.net/yad380300/" target="_blank" rel="noopener noreferrer" className={styles.hotelLink}>
+                            いとや旅館のご予約（じゃらん）
                         </a>
                         <p className={styles.note}>
                             宿泊のお客様には、糸蔵でのお夕食もご提供いたします。
